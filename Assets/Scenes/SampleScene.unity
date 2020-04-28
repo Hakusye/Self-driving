@@ -346,9 +346,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    vectorObservationSize: 57
-    numStackedVectorObservations: 1
-    vectorActionSize: 03000000
+    vectorObservationSize: 10
+    numStackedVectorObservations: 6
+    vectorActionSize: 02000000
     vectorActionDescriptions: []
     vectorActionSpaceType: 1
   m_Model: {fileID: 11400000, guid: e30582e23112edee88fcbdad02a16c8a, type: 3}
@@ -371,7 +371,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 8
   TakeActionsBetweenDecisions: 1
-  offsetStep: 0
 --- !u!65 &133712214
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -401,14 +400,14 @@ MonoBehaviour:
   m_DetectableTags:
   - car
   - wall
-  m_RaysPerDirection: 6
-  m_MaxRayDegrees: 64
+  m_RaysPerDirection: 4
+  m_MaxRayDegrees: 60
   m_SphereCastRadius: 0
   m_RayLength: 2
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
-  m_ObservationStacks: 1
+  m_ObservationStacks: 2
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 0
@@ -972,9 +971,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    vectorObservationSize: 57
-    numStackedVectorObservations: 1
-    vectorActionSize: 03000000
+    vectorObservationSize: 10
+    numStackedVectorObservations: 6
+    vectorActionSize: 02000000
     vectorActionDescriptions: []
     vectorActionSpaceType: 1
   m_Model: {fileID: 11400000, guid: e30582e23112edee88fcbdad02a16c8a, type: 3}
@@ -997,7 +996,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 8
   TakeActionsBetweenDecisions: 1
-  offsetStep: 0
 --- !u!65 &717310354
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1027,14 +1025,14 @@ MonoBehaviour:
   m_DetectableTags:
   - wall
   - car
-  m_RaysPerDirection: 6
-  m_MaxRayDegrees: 64
+  m_RaysPerDirection: 4
+  m_MaxRayDegrees: 60
   m_SphereCastRadius: 0
   m_RayLength: 2
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
-  m_ObservationStacks: 1
+  m_ObservationStacks: 2
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 0
@@ -1273,9 +1271,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    vectorObservationSize: 57
-    numStackedVectorObservations: 1
-    vectorActionSize: 03000000
+    vectorObservationSize: 10
+    numStackedVectorObservations: 6
+    vectorActionSize: 02000000
     vectorActionDescriptions: []
     vectorActionSpaceType: 1
   m_Model: {fileID: 11400000, guid: e30582e23112edee88fcbdad02a16c8a, type: 3}
@@ -1298,7 +1296,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 8
   TakeActionsBetweenDecisions: 1
-  offsetStep: 0
 --- !u!65 &1113772747
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1328,14 +1325,14 @@ MonoBehaviour:
   m_DetectableTags:
   - wall
   - car
-  m_RaysPerDirection: 6
-  m_MaxRayDegrees: 64
+  m_RaysPerDirection: 4
+  m_MaxRayDegrees: 60
   m_SphereCastRadius: 0
   m_RayLength: 2
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
-  m_ObservationStacks: 1
+  m_ObservationStacks: 2
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 0
@@ -1571,7 +1568,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 88b9ae7af2c1748a0a1f63407587a601, type: 2}
+  - {fileID: 15302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1750,9 +1747,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    vectorObservationSize: 57
-    numStackedVectorObservations: 1
-    vectorActionSize: 03000000
+    vectorObservationSize: 10
+    numStackedVectorObservations: 6
+    vectorActionSize: 02000000
     vectorActionDescriptions: []
     vectorActionSpaceType: 1
   m_Model: {fileID: 11400000, guid: e30582e23112edee88fcbdad02a16c8a, type: 3}
@@ -1775,7 +1772,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 8
   TakeActionsBetweenDecisions: 1
-  offsetStep: 0
 --- !u!114 &1476668912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1792,14 +1788,14 @@ MonoBehaviour:
   m_DetectableTags:
   - wall
   - car
-  m_RaysPerDirection: 6
-  m_MaxRayDegrees: 64
+  m_RaysPerDirection: 4
+  m_MaxRayDegrees: 60
   m_SphereCastRadius: 0
   m_RayLength: 2
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
-  m_ObservationStacks: 1
+  m_ObservationStacks: 2
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 0
@@ -1999,7 +1995,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 10
   TakeActionsBetweenDecisions: 0
-  offsetStep: 0
 --- !u!114 &1666995562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2013,9 +2008,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    vectorObservationSize: 57
-    numStackedVectorObservations: 1
-    vectorActionSize: 03000000
+    vectorObservationSize: 10
+    numStackedVectorObservations: 6
+    vectorActionSize: 02000000
     vectorActionDescriptions: []
     vectorActionSpaceType: 1
   m_Model: {fileID: 11400000, guid: e30582e23112edee88fcbdad02a16c8a, type: 3}
@@ -2074,14 +2069,14 @@ MonoBehaviour:
   m_DetectableTags:
   - wall
   - car
-  m_RaysPerDirection: 6
-  m_MaxRayDegrees: 64
+  m_RaysPerDirection: 4
+  m_MaxRayDegrees: 60
   m_SphereCastRadius: 0
-  m_RayLength: 3
+  m_RayLength: 2
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
-  m_ObservationStacks: 1
+  m_ObservationStacks: 2
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 0
@@ -2119,7 +2114,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 8
   TakeActionsBetweenDecisions: 1
-  offsetStep: 0
 --- !u!1 &1693853833
 GameObject:
   m_ObjectHideFlags: 0
